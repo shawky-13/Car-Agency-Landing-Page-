@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Agency</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- page icon  -->
+    <link rel="icon" href="imgs/logo.webp" />
+    <!-- for font awsome icons  using CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Setting -->
+    <div class="setting">
+      <div class="gear-icon">
+        <i class="fa fa-gear gear"></i>
+      </div>
+      <!-- Start Bullets -->
+      <div class="bullets">
+        <div class="bulles-box" data-section=".bmw-landing-page">
+          <span></span>
+          <div class="bullet-section">Home</div>
+        </div>
+        <div class="bulles-box" data-section=".about">
+          <span></span>
+          <div class="bullet-section">About</div>
+        </div>
+        <div class="bulles-box" data-section=".services">
+          <span></span>
+          <div class="bullet-section">Services</div>
+        </div>
+        <div class="bulles-box" data-section=".contact">
+          <span></span>
+          <div class="bullet-section">Contact</div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="colors">
+          <h4>Colors</h4>
+          <ul class="color">
+            <li data-color="#7d0217"></li>
+            <li data-color="#9c27b0"></li>
+            <li data-color="#607d8b"></li>
+            <li data-color="#ffd900"></li>
+            <li data-color="#2ab8cb"></li>
+          </ul>
+        </div>
+        <div class="background">
+          <h4>Random Background</h4>
+          <span class="yes" data-random="yes">Yes</span>
+          <span class="no active" data-random="no">No</span>
+        </div>
+        <div class="show-bullets">
+          <h4>Show Bullets</h4>
+          <span class="yes" data-show="show">Show</span>
+          <span class="no active" data-show="hide">Hide</span>
+        </div>
+      </div>
+      <div class="reset-option">
+        <button>Reset Options</button>
+      </div>
+    </div>
+    <!-- End Setting -->
+    <!--Start container of the page -->
+    <div class="bmw-landing-page">
+      <div class="overlay-layer"></div>
+      <!-- Start header section -->
+      <div class="container" id="home">
+        <div class="header-page">
+          <div class="logo">BMW Car Agency</div>
+          <!-- links -->
+          <ul class="links">
+            <li><a href="#home" class="active">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#service">services</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- intro text -->
+        <div class="introduction">
+          <h1>Choose Your <span>Favorite</span> Car</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            quo labore incidunt natus earum mollitia eaque enim
+          </p>
+        </div>
+      </div>
+      <!-- End header section -->
+    </div>
+    <!-- End container of the page -->
+    <!-- Start About Section -->
+    <div class="container">
+      <div class="about" id="about">
+        <div class="box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iste
+            excepturi reiciendis architecto blanditiis repellat fugiat non,
+            minus, dolore cum ut! Delectus labore ut quo quas, ducimus iusto ea
+            debitis.
+          </p>
+        </div>
+        <div class="box">
+          <img src="imgs/bmw logo 2.jpg" alt="bmw-logo" />
+        </div>
+      </div>
+      <div class="sales">
+        <h2>Sales</h2>
+        <div class="sale-box">
+          <div class="info">
+            <span>Number Of Cars</span>
+            <span class="n" data-n="100">0</span>
+          </div>
+          <div class="info">
+            <span>Numebr of Clients</span>
+            <span class="n" data-n="50">0</span>
+          </div>
+          <div class="info">
+            <span>Sales Price</span>
+            <div style="font-size: 23px; color: var(--secondary-color)">
+              <span class="n" data-n="20">0</span>
+              M$
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start Timeline  -->
+      <div class="timeline">
+        <h2>Our Timeline</h2>
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="line"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                repudiandae quaerat molestiae tempora ex voluptate ea non
+                aperiam. Qui eum consequatur omnis rem voluptatum aliquid ipsam
+                quam nemo molestias quisquam!
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                repudiandae quaerat molestiae tempora ex voluptate ea non
+                aperiam. Qui eum consequatur omnis rem voluptatum aliquid ipsam
+                quam nemo molestias quisquam!
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2016</div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                repudiandae quaerat molestiae tempora ex voluptate ea non
+                aperiam. Qui eum consequatur omnis rem voluptatum aliquid ipsam
+                quam nemo molestias quisquam!
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                repudiandae quaerat molestiae tempora ex voluptate ea non
+                aperiam. Qui eum consequatur omnis rem voluptatum aliquid ipsam
+                quam nemo molestias quisquam!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Timeline  -->
+      <!-- Start Features  -->
+      <div class="features">
+        <h2>Our Features</h2>
+        <div class="features-content">
+          <div class="feature-box">
+            <i class="fa-solid fa-car fa-bounce"></i>
+            <h3>sales with heart</h3>
+            <p>we are sales for our clients with our hearts and big love</p>
+          </div>
+          <div class="feature-box">
+            <i class="fa-solid fa-fire fa-shake"></i>
+            <h3>sales with heart</h3>
+            <p>we are sales for our clients with our hearts and big love</p>
+          </div>
+          <div class="feature-box">
+            <i class="fa-solid fa-car fa-bounce"></i>
+            <h3>sales with heart</h3>
+            <p>we are sales for our clients with our hearts and big love</p>
+          </div>
+        </div>
+      </div>
+      <!-- End Features  -->
+      <!-- Start Testimonials   -->
+      <div class="Testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="Testimonials-content">
+          <div class="test-box">
+            <p>
+              Its a very fanstastic BMW Car Agency that i bought my car from it
+            </p>
+            <div class="text">
+              <img src="imgs/ezat.jpeg" alt="ezat" />
+              <div class="info">
+                <h4>Ezat Maher</h4>
+                <p>Doctor</p>
+              </div>
+            </div>
+          </div>
+          <div class="test-box">
+            <p>
+              Its a very fanstastic BMW Car Agency that i bought my car from it
+            </p>
+            <div class="text">
+              <img src="imgs/ezat.jpeg" alt="ezat" />
+              <div class="info">
+                <h4>Ezat Maher</h4>
+                <p>Doctor</p>
+              </div>
+            </div>
+          </div>
+          <div class="test-box">
+            <p>
+              Its a very fanstastic BMW Car Agency that i bought my car from it
+            </p>
+            <div class="text">
+              <img src="imgs/ezat.jpeg" alt="ezat" />
+              <div class="info">
+                <h4>Ezat Maher</h4>
+                <p>Doctor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Testimonials  -->
+    </div>
+    <!-- End About Section -->
+    <!-- Start Services  -->
+    <div class="services" id="service">
+      <div class="container">
+        <div class="gallery">
+          <h2>Avavilable Cars</h2>
+          <div class="cars">
+            <img src="imgs/7.jpg" alt="BMW" />
+            <img src="imgs/8.jpg" alt="BMW" />
+            <img src="imgs/9.jpg" alt="BMW" />
+            <img src="imgs/10.jpg" alt="BMW" />
+            <img src="imgs/11.jpg" alt="BMW" />
+            <img src="imgs/12.jpg" alt="BMW" />
+            <img src="imgs/13.jpg" alt="BMW" />
+            <img src="imgs/14.jpg" alt="BMW" />
+            <img src="imgs/15.jpg" alt="BMW" />
+            <img src="imgs/16.jpg" alt="BMW" />
+            <img src="imgs/17.jpg" alt="BMW" />
+            <img src="imgs/18.jpg" alt="BMW" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services  -->
+    <!-- Start Contact  -->
+    <div class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <div class="container">
+        <div class="content">
+          <form action="">
+            <div class="contact-box">
+              <input type="text" placeholder="Your Name" name="client Name" />
+              <input
+                type="email"
+                placeholder="Your Email"
+                name="client Email"
+              />
+              <input
+                type="tel"
+                placeholder="Your Phone Number"
+                name="client phone number"
+              />
+            </div>
+            <div class="contact-box">
+              <textarea
+                name="client Message"
+                placeholder="Your Message"
+              ></textarea>
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact  -->
+    <!-- Start Footer  -->
+    <footer>
+      <p>
+        created with love by
+        <a href="https://github.com/shawky-13" target="_blank">shawky mshrif</a>
+      </p>
+    </footer>
+    <!-- End Footer  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
